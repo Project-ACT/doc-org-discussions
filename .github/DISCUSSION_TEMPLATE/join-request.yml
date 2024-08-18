@@ -1,0 +1,135 @@
+# Copyright (C) 2024 Project-ACT
+# 
+# This file is part of doc-org-discussions.
+# 
+# doc-org-discussions is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# doc-org-discussions is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with doc-org-discussions.  If not, see <https://www.gnu.org/licenses/>.
+
+title: "I would like to join!"
+labels:
+  - triage
+body:
+  - type: markdown
+    id: discussion_head_title
+    attributes:
+      value: "# Join Project-ACT"
+  - type: markdown
+    id: discussion_head_description
+    attributes:
+      value: |
+        I would like to join *Project-ACT* as a **Civic Volunteer** and **Contributor of Creative Works**, bringing my
+        time, effort, and expertise to bear on various initiatives and endeavors aimed at continuing the goals of Project-ACT
+        and its founders and participants
+
+        If I have not already, I will be sure and read over these (open in a new window if preferred), which I will attest
+        to having read over below:
+        - [Code of Conduct - Project-ACT}](https://github.com/Project-ACT/.github/blob/main/CODE_OF_CONDUCT.md)
+        - [Contributing - Project-ACT](https://github.com/Project-ACT/.github/blob/main/CONTRIBUTING.md)
+        - [Linux Foundation Developer Certificate](https://developercertificate.org/)
+
+        These are our overall policies for Project-ACT and its volunteer members and contributors, and apply to all participants
+        (The Developer Certificate still applies to non-coding creative works and contributions of time, effort, and expertise).
+
+
+  - type: input
+    attributes:
+      label: Other GitHub identities I work as for examples of my stuff
+      description: You may join our org with any particular GitHub username if you like
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Top 3 (or more) Projects or Links
+      description: "Some other things I work on, where to learn more about me…"
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: I have read and agree to comply with these
+      options:
+        - label: Organization Code of Conduct
+          required: true
+        - label: Organization Contributing policies
+          required: true
+        - label: Developer Certificate
+          required: true
+  
+  - type: markdown
+    attributes:
+      value: "## My Interest Areas"
+
+  - type: markdown
+    attributes:
+      value: |
+        Most Initiatives and Projects are made up of several components, only some of which are *code*. If you are a coder (javascript,
+        python, rust, sql, etc), that is great, but not required at all. We do use GitHub for initiative and component project management,
+        so a willingness to interact with GitHub (as you are doing now) is a bare minimum… 
+
+        **Note**: Our Whole Team approach means *Management* roles and responsibilities are shared, but it is always helpful to have at
+        least one person keeping track of the details.
+
+  - type: checkboxes
+    attributes:
+      label: My Civic Volunteer Pursuits
+      options:
+        - label: Individual Contributor
+        - label: Part of a cohort
+        - label: Part of a nonprofit or similar entity
+        - label: Part of a Former Brigade
+        - label: Founder/Manager/Maintainer of a cohort/org
+        - label: Hoping to form or join a cohort
+
+  - type: checkboxes
+    attributes:
+      label: My Areas of Interest
+      options:
+        - label: Initiative and Project Management
+        - label: Graphic Arts
+        - label: Media Creation (Audio, Video, edits, etc)
+        - label: User Interface Design
+        - label: Copy Editing / Documentation
+        - label: Language Translation (i18n/l10n)
+        - label: Testing / QA
+        - label: Marketing
+        - label: Software Development
+        - label: Hardware Development
+        - label: Co-Creation (end-user collaboration)
+        - label: Something else…
+
+  - type: textarea
+    attributes:
+      label: Added detail about my Areas of Interest
+      description: "Getting specific about my areas of interest AND expertise…"
+      placeholder: |
+        Favorite languages, tools, creative media, spoken and written languages,
+        or anything else not hinted at with this checklist above.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        *Project-ACT* is all volunteer, so it may take a moment to respond, and then there may
+        be some discussion, here in this discussion forum and/or via email.
+
+        Stay tuned, and thanks for your interest!
+
+        To be continued…
