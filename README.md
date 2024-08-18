@@ -1,2 +1,3 @@
-# doc-org-discussions
-Organization-wide discussions
+# Project-ACT Discussions
+
+Organization-wide discussions, including joining Project-ACT
